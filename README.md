@@ -19,16 +19,16 @@ Input: A CSV file containing hand landmark data — specifically the x, y, z coo
 Output: A trained SVM model capable of classifying hand gestures into multiple predefined categories with high accuracy.
 
 # Method
-# -Landmark Extraction
+### Landmark Extraction
 Uses MediaPipe Hands to detect 21 landmarks per hand.
 
-# -Feature Engineering
+### Feature Engineering
 Flattens and normalizes (x, y, z) coordinates into a fixed-length feature vector.
 
-# Model Training
+### Model Training
 Trains a Support Vector Machine using scikit-learn on the extracted features.
 
-# Real-Time Inference
+### Real-Time Inference
 Uses OpenCV to access webcam input and display gesture predictions live.
 
 # 📁 Demo Videos 
