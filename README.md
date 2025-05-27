@@ -27,6 +27,7 @@ Flattens and normalizes (x, y, z) coordinates into a fixed-length feature vector
 
 ### Model Training
 Trains a Support Vector Machine using scikit-learn on the extracted features.
+Trained multiple models including Logistic Regression, SVM, XGBoost, Random Forest, and Decision Tree using scikit-learn; SVM achieved the highest accuracy and was selected for real-time deployment.
 
 ### Real-Time Inference
 Uses OpenCV to access webcam input and display gesture predictions live.
